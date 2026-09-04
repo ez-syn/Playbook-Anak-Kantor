@@ -71,10 +71,10 @@ export const ExcelSpecialSection: React.FC<ExcelSpecialSectionProps> = ({
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#047857] rounded-full inline-block shrink-0"></span>
-              <span>Excel & Spreadsheet Master Guide</span>
+              <span>Excel & Spreadsheet Master</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Cheat sheet lengkap untuk olah data tanpa mouse. Dari rumus AutoSum, kunci formula F4, filter instan, hingga navigasi ribuan baris data.
+              Pintasan penting buat navigasi tabel kilat, rumus AutoSum, kunci formula pakai F4 ($), filter cepat, sampai rapikan kolom tanpa mouse.
             </p>
           </div>
 

@@ -51,7 +51,7 @@ export const OfficeTipsSection: React.FC<OfficeTipsSectionProps> = ({
               <span>Biar Kerjaan Nggak Bikin Muter-Muter</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Kebiasaan kecil yang membedakan pekerja amatir dan profesional: standar penamaan file yang rapi, struktur folder 3 level, dan sistem pelacakan to-do harian.
+              Biar file gampang dicari kapan pun dibutuhin: standar penamaan file yang rapi, susunan folder 3 level, dan cara nyatet to-do harian.
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export const OfficeTipsSection: React.FC<OfficeTipsSectionProps> = ({
                 Panduan Nama File: Hindari "final_final_fix_banget"
               </h3>
               <p className="text-xs sm:text-sm text-[#334155] font-semibold mt-1">
-                Standar nama file yang membuat filemu gampang dicari kapan saja tanpa bingung versi mana yang terbaru.
+                Standar nama file biar gampang dicari kapan saja tanpa bingung versi mana yang paling baru.
               </p>
             </div>
           </div>

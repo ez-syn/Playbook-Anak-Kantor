@@ -48,8 +48,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               id="hero-headline"
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-[#0F172A] tracking-tight leading-[1.1] mb-3.5"
             >
-              Kerjaan Banyak.<br />
-              <span className="text-[#2563EB]">Shortcut Harus Hafal.</span>
+              Kerjaan Numpuk?<br />
+              <span className="text-[#2563EB]">Ini Shortcut & Panduannya.</span>
             </h1>
 
             {/* Subheadline */}
@@ -57,7 +57,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               id="hero-subheadline"
               className="text-base sm:text-lg text-[#334155] font-semibold leading-relaxed mb-6 max-w-2xl"
             >
-              Panduan praktis biar kerjaan lebih sat-set tanpa ribet di Windows, Mac, Excel, browser, email, dan meeting.
+              Pintasan keyboard dan panduan praktis biar kerjaan cepat beres tanpa ribet di Windows, Mac, Excel, email, sampai meeting.
             </p>
 
             {/* Global Search Bar */}
@@ -149,11 +149,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#2563EB] shrink-0" />
-                <span className="font-bold text-[#0F172A]">100% Bebas Login</span>
+                <span className="font-bold text-[#0F172A]">Praktis & Siap Pakai</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#2563EB] shrink-0" />
-                <span className="font-bold text-[#0F172A]">Excel Super Lengkap</span>
+                <span className="font-bold text-[#0F172A]">Excel & Tools Lengkap</span>
               </div>
             </div>
 
@@ -234,8 +234,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 
                 {/* Floating Shortcut Badge */}
                 <g transform="translate(40, 45)">
-                  <rect width="88" height="28" rx="8" fill="#D1FAE5" stroke="#10B981" strokeWidth="2" />
-                  <text x="10" y="18" fill="#047857" fontSize="9.5" fontFamily="sans-serif" fontWeight="bold">⚡ Sat-Set Mode</text>
+                  <rect width="96" height="28" rx="8" fill="#D1FAE5" stroke="#10B981" strokeWidth="2" />
+                  <text x="8" y="18" fill="#047857" fontSize="9.5" fontFamily="sans-serif" fontWeight="bold">⚡ Shortcut Praktis</text>
                 </g>
 
                 {/* Floating Key Badge Right */}

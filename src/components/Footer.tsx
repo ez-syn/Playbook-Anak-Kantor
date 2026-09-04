@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                 PLAYBOOK ANAK KANTOR
               </div>
               <p className="text-xs text-[#475569] font-bold">
-                Shortcut, trik kerja, dan bekal praktis biar kerjaan lebih sat-set.
+                Shortcut, trik kerja, dan panduan praktis biar kerjaan cepat beres.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} Playbook Anak Kantor. Dibuat untuk produktivitas harian pekerja kantor Indonesia.
           </p>
           <p className="bg-[#EFF6FF] text-[#1E40AF] px-3 py-1 rounded-md border border-[#BFDBFE] font-bold">
-            Aplikasi statis ringan, aman, tanpa tracking pihak ketiga.
+            Ringan, cepat, dan aman tanpa pelacak pihak ketiga.
           </p>
         </div>
       </div>

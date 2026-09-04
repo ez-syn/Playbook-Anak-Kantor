@@ -60,7 +60,7 @@ export const BankKalimatSection: React.FC<BankKalimatSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#BFDBFE]">
               <MessageSquareText className="w-4 h-4 text-[#2563EB]" />
-              <span>Komunikasi Email & Chat Bebas Bingung</span>
+              <span>Template Chat & Email</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#2563EB] rounded-full inline-block shrink-0"></span>

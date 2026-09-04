@@ -77,7 +77,7 @@ export function App() {
       <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans">
         <LoginForm onLoginSuccess={() => {
           setIsLoggedIn(true);
-          showToast("Login Berhasil! Selamat belajar sat-set.");
+          showToast("Berhasil masuk! Selamat mencoba shortcut & triknya.");
         }} />
         <Toast
           message={toastMessage}
@@ -103,7 +103,7 @@ export function App() {
           localStorage.removeItem('ez_playbook_logged_in');
           setIsLoggedIn(false);
           setActiveSection('beranda');
-          showToast("Berhasil Keluar! Sesi belajar Anda telah diamankan.");
+          showToast("Berhasil keluar. Sampai jumpa lagi!");
         }}
       />
 

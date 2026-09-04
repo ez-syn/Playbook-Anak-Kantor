@@ -1,6 +1,6 @@
 {
   "name": "Playbook Anak Kantor - By Ezplan",
-  "description": "Shortcut, trik kerja, dan bekal praktis biar kerjaan lebih sat-set untuk Windows, Mac, Excel, Word, PowerPoint, browser, email, dan meeting.",
+  "description": "Kumpulan shortcut keyboard, trik kerja, dan panduan praktis biar kerjaan cepat beres di Windows, Mac, Excel, browser, email, sampai meeting.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

@@ -90,7 +90,7 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
           </h1>
 
           <p className="text-sm sm:text-base text-[#94A3B8] font-medium leading-relaxed mb-6">
-            Kumpulan formula kerja nyata yang paling sering ditugaskan atasan untuk rekap data, olah laporan bulanan, pencarian data antar sheet, dan otomatisasi spreadsheet tanpa ribet.
+            Kumpulan rumus Excel & Google Sheets yang paling sering kepakai buat rekap laporan, cocokin data antar sheet, dan ngolah angka tanpa pusing.
           </p>
 
           <div className="flex flex-wrap items-center gap-2.5 text-xs font-bold">

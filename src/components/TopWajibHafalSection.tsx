@@ -30,7 +30,7 @@ export const TopWajibHafalSection: React.FC<TopWajibHafalSectionProps> = ({
     const keys = getKeys(item);
     const text = `${item.name}: ${keys.join(' + ')}`;
     navigator.clipboard.writeText(text);
-    onCopySuccess(`Shortcut ${item.name} (${keys.join(' + ')}) disalin!`);
+    onCopySuccess(`Shortcut ${item.name} berhasil disalin!`);
   };
 
   return (
@@ -42,21 +42,21 @@ export const TopWajibHafalSection: React.FC<TopWajibHafalSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#B45309] bg-[#FEF3C7] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#FCD34D]">
               <Flame className="w-4 h-4 fill-[#D97706] text-[#D97706]" />
-              <span>Prioritas Tertinggi (Wajib Hafal)</span>
+              <span>Paling Sering Dipakai</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#D97706] rounded-full inline-block shrink-0"></span>
               <span>20 Shortcut Wajib Hafal</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Kalau waktumu terbatas dan baru mau mulai menghafal, kuasai 20 kombinasi tombol ini dulu. Pekerjaan harian dijamin langsung terasa 2x lebih sat-set.
+              Kalau baru mulai belajar shortcut, hafalin 20 kombinasi ini dulu. Paling sering dipakai dan langsung bikin kerjaan harian jauh lebih cepat.
             </p>
           </div>
           
           <div className="mt-4 md:mt-0">
             <span className="inline-flex items-center gap-1.5 text-xs font-black bg-[#EFF6FF] text-[#1E40AF] border border-[#BFDBFE] px-4 py-2.5 rounded-xl shadow-xs">
               <Award className="w-4 h-4 text-[#2563EB]" />
-              <span>20 Shortcut Esensial Terpilih</span>
+              <span>20 Shortcut Paling Berguna</span>
             </span>
           </div>
         </div>

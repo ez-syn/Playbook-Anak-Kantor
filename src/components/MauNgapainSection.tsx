@@ -86,14 +86,14 @@ export const MauNgapainSection: React.FC<MauNgapainSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#BFDBFE]">
               <HelpCircle className="w-4 h-4 text-[#2563EB]" />
-              <span>Pencarian Cepat Berdasarkan Aktivitas</span>
+              <span>Cari Berdasarkan Aktivitas</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#2563EB] rounded-full inline-block shrink-0"></span>
               <span>Mau Ngapain?</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-xl leading-relaxed">
-              Nggak perlu pusing mikirin nama menunya. Klik aktivitas yang mau kamu lakukan di bawah untuk melihat shortcut seketika.
+              Nggak perlu ngafalin nama tombol. Pilih aja kegiatan yang mau kamu lakuin di bawah, shortcut-nya bakal langsung muncul.
             </p>
           </div>
           <div className="mt-4 md:mt-0 flex items-center gap-2 text-xs font-extrabold text-[#0F172A] bg-white border-2 border-[#CBD5E1] px-4 py-2.5 rounded-xl shadow-xs">

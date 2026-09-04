@@ -67,14 +67,14 @@ export const MeetingSurvivalSection: React.FC<MeetingSurvivalSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#BFDBFE]">
               <Video className="w-4 h-4 text-[#2563EB]" />
-              <span>Anti Kagok & Efisien</span>
+              <span>Persiapan & Trik Rapat</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#2563EB] rounded-full inline-block shrink-0"></span>
               <span>Meeting Survival Kit</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Panduan 3 babak agar meeting tidak bertele-tele, tidak salah share tab pribadi, dan menghasilkan action item yang jelas.
+              Panduan ringkas sebelum, saat, dan sesudah meeting: persiapan aman sebelum share screen, shortcut penting, dan format notulen (MoM) yang to-the-point.
             </p>
           </div>
 

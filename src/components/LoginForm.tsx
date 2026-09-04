@@ -23,7 +23,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
         localStorage.setItem('ez_playbook_logged_in', 'true');
         onLoginSuccess();
       } else {
-        setError('Username atau Password tidak cocok. Silakan periksa kembali Panduan PDF Anda.');
+        setError('Username atau password tidak cocok. Coba cek lagi file PDF panduanmu ya.');
         setLoading(false);
       }
     }, 600);
@@ -49,7 +49,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
             Playbook Anak Kantor
           </h1>
           <p className="text-xs sm:text-sm text-[#475569] font-semibold mt-1">
-            Shortcut & Bekal Sat-Set Kerja Harian
+            Kumpulan Shortcut & Panduan Kerja Praktis
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
           <div className="flex items-center gap-2 pb-4 mb-5 border-b-2 border-[#F1F5F9]">
             <Lock className="w-4 h-4 text-[#1E3A8A]" />
             <h2 className="text-sm sm:text-base font-black text-[#0F172A] uppercase tracking-wider">
-              Akses Terproteksi
+              Masuk ke Playbook
             </h2>
           </div>
 
@@ -67,8 +67,8 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
           <div className="p-4 rounded-2xl bg-[#FFFBEB] border-2 border-[#FEF3C7] text-[#92400E] mb-6 flex gap-3">
             <AlertCircle className="w-5 h-5 text-[#D97706] shrink-0 mt-0.5" />
             <div className="text-xs font-semibold leading-relaxed">
-              <p className="font-black text-[#78350F] mb-1">Butuh Akun Masuk?</p>
-              Untuk <span className="font-bold text-[#78350F]">Username & Password</span>, silakan cek di dalam **File Panduan PDF** yang Anda terima ketika membeli e-book / paket Ezplan.
+              <p className="font-black text-[#78350F] mb-1">Info Akses Masuk</p>
+              Username dan password bisa kamu cek di dalam <span className="font-bold text-[#78350F]">file PDF panduan</span> yang didapat saat membeli Playbook Ezplan.
             </div>
           </div>
 

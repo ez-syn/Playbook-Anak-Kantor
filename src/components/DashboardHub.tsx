@@ -48,9 +48,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Wajib Hafal',
     badgeIcon: Flame,
     title: '20 SHORTCUT WAJIB HAFAL',
-    subtitle: '"Fondasi Kerja Sat-Set"',
-    description: 'Fokus pada 20 kombinasi tombol paling esensial untuk Windows, Mac, browser & dokumen harian. Kuasai ini dulu untuk langsung kerja 2x lebih cepat.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Paling sering kepakai setiap hari',
+    description: '20 kombinasi tombol paling mendasar untuk Windows, Mac, browser, dan dokumen. Kuasai ini dulu sebelum menghafal yang lain.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'mau-ngapain',
@@ -59,9 +59,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Aktivitas Harian',
     badgeIcon: Zap,
     title: 'MAU NGAPAIN? (AKSI CEPAT)',
-    subtitle: '"Pencarian Berbasis Tugas"',
-    description: 'Nggak perlu pusing mikirin nama shortcut. Temukan kombinasi tombol instan berdasarkan apa yang mau kamu lakukan: screenshot, split layar, hingga rapikan tab.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Tinggal pilih apa yang mau kamu lakukan',
+    description: 'Nggak perlu ngafalin nama menu atau tombol. Cukup klik aktivitas yang kamu butuhin: screenshot layar, split window, sampai rapihin tab.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'shortcut-library',
@@ -70,9 +70,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: '150+ Shortcut',
     badgeIcon: Layers,
     title: 'PUSTAKA SHORTCUT KERJA',
-    subtitle: '"Database Lengkap & Filter"',
-    description: 'Koleksi lengkap ratusan shortcut terverifikasi untuk Windows & Mac. Dilengkapi filter kategori aplikasi, pencarian sinonim cerdas, dan mode tabel.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Koleksi lengkap ratusan shortcut',
+    description: 'Daftar lengkap shortcut keyboard untuk Windows & Mac. Bisa difilter per aplikasi (Excel, Word, Chrome, dll) atau dicari pakai kata kunci bebas.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'excel-khusus',
@@ -81,9 +81,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Excel & Data',
     badgeIcon: Table,
     title: 'EXCEL & SPREADSHEET MASTER',
-    subtitle: '"Olah Data Tanpa Mouse"',
-    description: 'Cheat sheet lengkap navigasi cell kilat, formula AutoSum instan, kunci referensi F4 ($), filter cepat, hingga manipulasi baris dan kolom data.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Trik navigasi & olah data kilat',
+    description: 'Pintasan penting buat geser cell kilat, kunci rumus dengan F4 ($), AutoSum cepat, sampai filter dan atur baris-kolom tanpa mouse.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'bank-kalimat',
@@ -92,9 +92,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Chat & Email',
     badgeIcon: MessageSquareText,
     title: 'BANK KALIMAT KANTOR',
-    subtitle: '"Komunikasi Profesional"',
-    description: 'Template pesan WhatsApp, Slack, dan Email siap pakai: izin sakit/cuti, follow-up vendor, revisi tugas santun, hingga tolak meeting dadakan.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Template chat & email siap kirim',
+    description: 'Kumpulan template pesan WhatsApp, Slack, dan email: follow-up kerjaan, minta data, kirim revisi, sampai izin berhalangan kerja.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'meeting-kit',
@@ -103,9 +103,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Siaga Meeting',
     badgeIcon: Video,
     title: 'MEETING SURVIVAL KIT',
-    subtitle: '"Anti Kagok & Efisien"',
-    description: 'Panduan 3 babak meeting efisien: checklist persiapan screen share aman, shortcut cepat mute/kamera, dan format Minutes of Meeting (MoM) ringkas.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Persiapan sebelum, saat, & setelah rapat',
+    description: 'Checklist sebelum share screen, shortcut mute/kamera cepat, plus format notulensi (MoM) ringkas biar hasil rapat beneran jalan.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'tips-kerja',
@@ -114,9 +114,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Manajemen File',
     badgeIcon: FolderTree,
     title: 'MANAJEMEN FILE & KERJA',
-    subtitle: '"Rapi & Terstruktur"',
-    description: 'Standar format penamaan file anti revisi berulang (v1_final_FIX), struktur folder 3 level, dan framework to-do harian agar tidak muter-muter.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Standar nama file & susunan folder',
+    description: 'Biar nggak ada lagi file bernama "final_fix_banget.xlsx". Plus cara rapihin folder proyek dan to-do list harian.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'karier-bridge',
@@ -125,9 +125,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Perspektif Karier',
     badgeIcon: Compass,
     title: 'JURNAL & PROGRES KARIER',
-    subtitle: '"Kerjaan Hari Ini, Karier Besok"',
-    description: 'Selain kerja sat-set harian, pastikan pencapaian mingguan dan skill barumu terdokumentasi rapi untuk bahan review berkala dan persiapan promosi.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Catatan pencapaian & skill kerja',
+    description: 'Biar pencapaian dan skill barumu nggak nguap begitu aja. Berguna banget pas evaluasi kerja tahunan atau update CV.',
+    actionText: 'Buka Modul'
   },
   {
     id: 'formula-master',
@@ -136,9 +136,9 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Rumus Sakti',
     badgeIcon: Calculator,
     title: 'RUMUS EXCEL & GSHEET POPULER',
-    subtitle: '"Olah Laporan & Formula Kantor"',
-    description: 'Kumpulan rumus kerja nyata yang paling sering ditugaskan atasan untuk rekap data, olah laporan bulanan, pencarian data, dan otomatisasi tanpa pusing.',
-    actionText: 'Buka Modul Ini'
+    subtitle: 'Rumus yang paling sering ditugaskan',
+    description: 'Rumus-rumus spreadsheet yang beneran kepakai di dunia kerja buat rekap laporan, cocokin data antar sheet, dan bersihin teks kotor.',
+    actionText: 'Buka Modul'
   }
 ];
 
@@ -157,15 +157,15 @@ export const DashboardHub: React.FC<DashboardHubProps> = ({
       <div className="mb-10 text-center max-w-3xl mx-auto">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EFF6FF] border border-[#BFDBFE] text-[#1E40AF] text-xs font-black uppercase tracking-wider mb-4 shadow-xs">
           <Sparkles className="w-4 h-4 text-[#2563EB]" />
-          <span>PORTAL MODUL & PANDUAN KERJA KANTORAN</span>
+          <span>PANDUAN & CHEAT SHEET KERJA KANTOR</span>
         </div>
         
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#0F172A] tracking-tight leading-tight mb-4">
-          Kerjaan Banyak. Shortcut Harus Hafal.
+          Kerjaan Numpuk? Ini Shortcut & Trik Biar Cepat Beres.
         </h1>
         
         <p className="text-base sm:text-lg text-[#334155] font-semibold leading-relaxed mb-8">
-          Pilih modul atau tahapan panduan di bawah ini untuk mulai bekerja lebih terstruktur, sat-set, dan percaya diri di Windows, Mac, Excel, email, dan meeting.
+          Pilih modul atau panduan di bawah untuk nemuin shortcut dan trik kerja praktis di Windows, Mac, Excel, email, sampai meeting.
         </p>
 
         {/* Universal Search Input */}
@@ -182,7 +182,7 @@ export const DashboardHub: React.FC<DashboardHubProps> = ({
                 onSearchSubmit();
               }
             }}
-            placeholder="Cari shortcut cepat: misal 'screenshot', 'filter', 'rename'..."
+            placeholder="Cari shortcut atau trik: misal 'screenshot', 'filter', 'zoom'..."
             className="flex-1 min-w-0 py-2.5 px-1 bg-transparent text-[#0F172A] placeholder:text-[#64748B] text-sm sm:text-base font-bold focus:outline-none"
           />
           {searchQuery && (
@@ -207,10 +207,10 @@ export const DashboardHub: React.FC<DashboardHubProps> = ({
         <div className="flex items-center gap-2.5">
           <span className="w-3 h-7 bg-[#2563EB] rounded-full inline-block"></span>
           <h2 className="text-xl sm:text-2xl font-black text-[#0F172A] tracking-tight">
-            Katalog Modul Playbook
+            Daftar Modul & Panduan
           </h2>
           <span className="text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full border border-[#BFDBFE] ml-1">
-            9 Modul Lengkap
+            9 Modul Siap Pakai
           </span>
         </div>
 

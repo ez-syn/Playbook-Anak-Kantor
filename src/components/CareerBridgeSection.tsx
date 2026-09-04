@@ -41,14 +41,14 @@ export const CareerBridgeSection: React.FC<CareerBridgeSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#BFDBFE]">
               <Compass className="w-4 h-4 text-[#2563EB]" />
-              <span>Perspektif Jangka Panjang</span>
+              <span>Catatan Progres Karier</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#2563EB] rounded-full inline-block shrink-0"></span>
               <span>Kerjaan Hari Ini, Karier Besok</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Selain kerja lebih cepat dan sat-set setiap hari, perjalanan karier juga perlu dicatat dan dilihat secara berkala agar pencapaianmu tidak hilang begitu saja.
+              Selain ngerjain tugas harian, catat juga skill dan pencapaianmu secara berkala biar nggak nguap begitu aja pas evaluasi atau bikin CV.
             </p>
           </div>
         </div>
@@ -86,13 +86,13 @@ export const CareerBridgeSection: React.FC<CareerBridgeSectionProps> = ({
             <div className="lg:col-span-8">
               <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#047857] bg-[#D1FAE5] px-3 py-1 rounded-md uppercase tracking-wider mb-3 border border-[#6EE7B7]">
                 <FileSpreadsheet className="w-4 h-4 text-[#047857]" />
-                <span>Companion Sheet Template</span>
+                <span>Template Pendukung</span>
               </div>
               <h3 className="text-xl sm:text-2xl font-black text-[#0F172A] tracking-tight mb-2">
                 Dokumentasikan Rekam Jejakmu di Google Sheets Karier
               </h3>
               <p className="text-sm text-[#334155] font-semibold leading-relaxed mb-5">
-                Aplikasi Playbook Anak Kantor ini dirancang beriringan dengan <strong className="text-[#0F172A] font-black">Template Google Sheets Karier</strong>. Gunakan playbook ini untuk eksekusi teknis harian, dan catat progres skill, proyek, serta pencapaianmu di spreadsheet secara berkala.
+                Playbook ini fokus buat bantu kerjaan teknis harian. Buat nyatet progres jangka panjang seperti skill, proyek penting, dan pencapaian kerja, kamu bisa pakai template Google Sheets yang sudah disediakan di paket Ezplan.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-[#0F172A] font-bold">

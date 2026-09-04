@@ -127,7 +127,7 @@ export const ShortcutLibrary: React.FC<ShortcutLibraryProps> = ({
     const keys = getKeys(item);
     const text = `${item.name} (${item.app}): ${keys.join(' + ')}`;
     navigator.clipboard.writeText(text);
-    onCopySuccess(`Shortcut ${item.name} (${keys.join(' + ')}) disalin!`);
+    onCopySuccess(`Shortcut ${item.name} berhasil disalin!`);
   };
 
   return (
@@ -139,14 +139,14 @@ export const ShortcutLibrary: React.FC<ShortcutLibraryProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-black text-[#1E40AF] bg-[#EFF6FF] px-3 py-1 rounded-full uppercase tracking-wider mb-3 border border-[#BFDBFE]">
               <Layers className="w-4 h-4 text-[#2563EB]" />
-              <span>Database Lengkap & Terverifikasi</span>
+              <span>Koleksi Lengkap & Siap Pakai</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0F172A] tracking-tight flex items-center gap-2.5">
               <span className="w-3 h-8 bg-[#2563EB] rounded-full inline-block shrink-0"></span>
               <span>Pustaka Shortcut Kerja</span>
             </h2>
             <p className="text-base text-[#334155] font-semibold mt-2 max-w-2xl leading-relaxed">
-              Cari dan filter berdasarkan aplikasi, platform OS, atau aktivitas. Dilengkapi sinonim pencarian cerdas.
+              Cari dan filter shortcut berdasarkan aplikasi atau sistem operasi Windows & Mac. Bisa cari pakai kata kunci bebas.
             </p>
           </div>
 
@@ -174,7 +174,7 @@ export const ShortcutLibrary: React.FC<ShortcutLibraryProps> = ({
             </div>
 
             <div className="text-xs font-black text-[#0F172A] bg-white px-4 py-2.5 rounded-xl border-2 border-[#CBD5E1] shadow-xs">
-              <span>{filteredShortcuts.length} Shortcut Terdaftar</span>
+              <span>{filteredShortcuts.length} Shortcut</span>
             </div>
           </div>
         </div>
