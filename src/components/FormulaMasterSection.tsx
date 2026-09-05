@@ -30,6 +30,7 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
 
   const categories = [
     { id: 'all', label: 'Semua Rumus' },
+    { id: 'basic', label: '⭐ Dasar Wajib Hafal' },
     { id: 'lookup', label: 'Pencarian / Lookup' },
     { id: 'aggregation', label: 'Hitung & Total (SUM/COUNT)' },
     { id: 'logic', label: 'Logika & Anti-Error' },
@@ -48,8 +49,23 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
 
   const filteredFormulas = OFFICE_FORMULAS_DATA.filter((item) => {
     // Category filter
-    if (selectedCategory !== 'all' && item.category !== selectedCategory) {
-      return false;
+    if (selectedCategory !== 'all') {
+      if (selectedCategory === 'basic') {
+        if (item.category !== 'basic' && item.difficulty !== 'Wajib Dasar') {
+          return false;
+        }
+      } else if (selectedCategory === 'aggregation') {
+        const isAgg = item.category === 'aggregation' || ['sum', 'average', 'count-counta', 'max-min', 'sumif-countif', 'round'].includes(item.id);
+        if (!isAgg) return false;
+      } else if (selectedCategory === 'text') {
+        const isTxt = item.category === 'text' || ['left-mid-right', 'len', 'concat-symbol'].includes(item.id);
+        if (!isTxt) return false;
+      } else if (selectedCategory === 'date') {
+        const isDate = item.category === 'date' || item.id === 'today-now';
+        if (!isDate) return false;
+      } else if (item.category !== selectedCategory) {
+        return false;
+      }
     }
     // Platform filter
     if (selectedPlatform === 'excel' && item.supportedIn === 'gsheets') {
@@ -65,8 +81,10 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
         item.name.toLowerCase().includes(q) ||
         item.purpose.toLowerCase().includes(q) ||
         item.formulaExample.toLowerCase().includes(q) ||
+        item.syntax.toLowerCase().includes(q) ||
         item.sampleCase.toLowerCase().includes(q) ||
-        item.categoryLabel.toLowerCase().includes(q)
+        item.categoryLabel.toLowerCase().includes(q) ||
+        item.proTip.toLowerCase().includes(q)
       );
     }
     return true;
@@ -94,17 +112,21 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
           </p>
 
           <div className="flex flex-wrap items-center gap-2.5 text-xs font-bold">
+            <span className="bg-[#10B981]/20 px-3 py-1.5 rounded-xl border border-[#34D399]/40 text-[#6EE7B7] flex items-center gap-1.5 font-black">
+              <Flame className="w-3.5 h-3.5 text-[#34D399]" />
+              Rumus Basic Wajib Hafal Lengkap
+            </span>
             <span className="bg-[#334155]/80 px-3 py-1.5 rounded-xl border border-[#475569] text-white flex items-center gap-1.5">
               <CheckCircle2 className="w-3.5 h-3.5 text-[#34D399]" />
               Formula Siap Copas
             </span>
             <span className="bg-[#334155]/80 px-3 py-1.5 rounded-xl border border-[#475569] text-white flex items-center gap-1.5">
               <Table className="w-3.5 h-3.5 text-[#60A5FA]" />
-              Support Excel 365 & GSheets
+              Excel 365 & Google Sheets
             </span>
             <span className="bg-[#334155]/80 px-3 py-1.5 rounded-xl border border-[#475569] text-white flex items-center gap-1.5">
               <Lightbulb className="w-3.5 h-3.5 text-[#FBBF24]" />
-              Dilengkapi Contoh Kasus Nyata
+              Contoh Kasus Nyata Kantor
             </span>
           </div>
         </div>
@@ -153,7 +175,7 @@ export const FormulaMasterSection: React.FC<FormulaMasterSectionProps> = ({ onCo
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari nama rumus atau kasus kerja (misal: 'xlookup', 'gaji', 'koma', 'query')..."
+              placeholder="Cari rumus (misal: 'sum', 'average', 'count', 'xlookup', 'if', 'potong teks', 'tanggal')..."
               className="w-full pl-10 pr-4 py-2.5 bg-[#F8FAFC] rounded-xl border-2 border-[#CBD5E1] text-xs sm:text-sm font-bold text-[#0F172A] placeholder:text-[#64748B] focus:outline-none focus:border-[#2563EB] focus:bg-white"
             />
             {searchQuery && (

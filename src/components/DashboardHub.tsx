@@ -136,8 +136,8 @@ export const MODULE_LIST: ModuleItem[] = [
     badgeLabel: 'Rumus Sakti',
     badgeIcon: Calculator,
     title: 'RUMUS EXCEL & GSHEET POPULER',
-    subtitle: 'Rumus yang paling sering ditugaskan',
-    description: 'Rumus-rumus spreadsheet yang beneran kepakai di dunia kerja buat rekap laporan, cocokin data antar sheet, dan bersihin teks kotor.',
+    subtitle: 'Rumus dasar wajib & formula kerja harian',
+    description: 'Dari rumus basic wajib hafal (SUM, AVERAGE, COUNT, MAX/MIN, IF, potong teks) sampai XLOOKUP dan olah data antar sheet.',
     actionText: 'Buka Modul'
   }
 ];

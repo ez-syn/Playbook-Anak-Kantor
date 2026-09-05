@@ -105,7 +105,7 @@ export interface OfficeTipItem {
 export interface OfficeFormulaItem {
   id: string;
   name: string;
-  category: 'lookup' | 'logic' | 'aggregation' | 'text' | 'date' | 'dynamic' | 'gsheets';
+  category: 'basic' | 'lookup' | 'logic' | 'aggregation' | 'text' | 'date' | 'dynamic' | 'gsheets';
   categoryLabel: string;
   supportedIn: 'both' | 'excel' | 'gsheets';
   difficulty: 'Wajib Dasar' | 'Menengah' | 'Power User';
